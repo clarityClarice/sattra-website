@@ -1,11 +1,14 @@
 header.header{
-    background-color: #E19446;
+    background-color: 	#F06531;
     overflow: hidden;
     box-shadow: var(--shadow);
     width: var(--aside-width);
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 
+        2px 0 10px 0 rgba(0, 0, 0, 0.12),
+        2px 0 15px 0 rgba(0, 0, 0, 0.09);
 }
 
 header.header h1{
