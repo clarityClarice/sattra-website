@@ -1,0 +1,51 @@
+:root {
+    --bg-dark: #1A2F3A;
+
+    --logo-height: 200px;
+    --header-height: 30px;
+    --aside-width: 280px;
+    --footer-height: 20px;
+
+    --shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows:
+        var(--logo-height)
+        var(--header-height)
+        1fr
+        var(--footer-height);
+    grid-template-areas:
+        "logo"
+        "header "
+        "content"
+        "footer";
+        height: 100vh;
+        background-color: #F5F5F5
+}
+
+aside.logo{
+    grid-area: logo;
+}
+
+header.header{
+    grid-area: header
+}
+
+
+main.content{
+    grid-area: content
+}
+
+footer.footer{
+    grid-area: footer
+}

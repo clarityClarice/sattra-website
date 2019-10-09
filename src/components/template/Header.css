@@ -1,0 +1,18 @@
+header.header{
+    background-color: #E19446;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    width: var(--aside-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header h1{
+    font-size: 1.8em;
+    margin-bottom: 7%
+}
+
+.headerContent{
+    display: flex;
+}
