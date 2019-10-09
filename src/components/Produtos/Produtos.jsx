@@ -2,7 +2,7 @@ import React from 'react'
 import Main from '../template/Main'
 
 export default props =>
-    <Main icon="cog" title="Produtos" >
+    <Main title="Produtos" >
         <div className="display-4">Produto 1</div>
         <p className="mb-0" > Inserir conteúdo aqui</p>
 
