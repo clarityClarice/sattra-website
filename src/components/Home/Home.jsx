@@ -8,8 +8,6 @@ function Home(){
     
     return(
         <Main title="Home">
-            <div className="display-4">Bem-vindo à <b>SATTRA</b> </div>
-            <p>Sistemas de automação e tecnologia para terminais alfandegários</p>
             <div className="container">
                 <div className="imgContainer">
                     <img src={Teste} alt="teste" />
@@ -30,6 +28,13 @@ function Home(){
                         </video> 
                     </div>
                 </div>
+                <div className="bodyText">
+                    <p> <b>Sattra</b> é uma empresa de sistemas de automação e tecnologia para terminais e recintos alfandegários. 
+                            Nossa equipe é formada por profissionais que podem elaborar, prestar consultoria e executar projetos em recintos alfandegados em geral. 
+                            Apresentamos soluções <b>inovadoras</b> e de vanguarda para reconhecimento de placas, containers e vagões e automação dos Gates portuários (OCR)- Nossa <b>exclusiva solução</b> que não utiliza de sensores para reconhecer um caminhão no gate.
+                            Utilizamos de <b>alta tecnologia</b> com <b>redução de custos</b> operacionais e <b>infraestrutura mínima</b>! </p>
+                </div>
+                
             </div>
         </Main>
     )
