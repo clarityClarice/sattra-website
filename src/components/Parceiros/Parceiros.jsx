@@ -24,8 +24,9 @@ export default props =>
         <hr/>
 
         <div className="display-4">Nossas certificações</div>
-
-        <img id="digifort" src={Imagem2} alt="digifort" />
-        <img id="genetec" src={Imagem3} alt="genetec"/>
+        <div className="images">
+            <img id="digifort" src={Imagem2} alt="digifort" />
+            <img id="genetec" src={Imagem3} alt="genetec"/>
+        </div>
         <hr/>
     </Main>

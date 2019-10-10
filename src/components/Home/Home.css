@@ -11,3 +11,15 @@ div.video{
     justify-content: space-between;
 }
 
+div.imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+div.container{
+    display: grid;
+    grid-template-columns: 1fr
+
+}

@@ -3,8 +3,6 @@ aside.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    height: 20%;
 }
 
 aside.logo img{
@@ -15,5 +13,4 @@ aside.logo a {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
