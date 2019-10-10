@@ -8,7 +8,8 @@ function Home(){
     
     return(
         <Main title="Home">
-            <div className="display-4">Bem-vindo!</div>
+            <div className="display-4">Bem-vindo à <b>SATTRA</b> </div>
+            <p>Sistemas de automação e tecnologia para terminais alfandegários</p>
             <div className="container">
                 <div className="imgContainer">
                     <img src={Teste} alt="teste" />
