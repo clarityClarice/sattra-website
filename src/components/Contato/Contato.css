@@ -1,6 +1,5 @@
 div.contentContato {
-    padding: 5%;
+    padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 500px;
+    margin: 0;
 }

@@ -24,5 +24,13 @@ export default props =>
             <i class="fa fa-users"></i>Valores 
             </h2>
             Comprometimento, transparência, competência, qualidade, respeito e ética.
+            <hr/>
+            <div className="column2">
+                <p className="mb-0" > <i className="fa fa-map-marker" aria-hidden="true"></i> Itajaí - Santa Catarina</p>
+                <p />
+                <p className="mb-0" > <i className="fa fa-envelope" aria-hidden="true"></i> contato@sattra.com.br</p>
+                <p/>
+                <p className="mb-0"><i className="fa fa-phone" aria-hidden="true"></i> +55 47 2125-0087</p>
+            </div>
         </div>
     </Main>
