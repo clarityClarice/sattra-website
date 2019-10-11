@@ -3,7 +3,6 @@ import './Parceiros.css'
 import Main from '../template/Main'
 
 import Imagem2 from '../../Assets/Images/Imagem2.png'
-import Imagem3 from '../../Assets/Images/Imagem3.png'
 import Imagem5 from '../../Assets/Images/Imagem5.png'
 import logoPorto from '../../Assets/Images/logoPorto.png'
 import CamaraVereadores from '../../Assets/Images/CamaraVereadores.png'
@@ -36,7 +35,6 @@ export default props =>
         <div className="display-4">Nossas certificações</div>
         <div className="images">
             <img id="digifort" src={Imagem2} alt="digifort" />
-            <img id="genetec" src={Imagem3} alt="genetec"/>
         </div>
         <hr/>
     </Main>
