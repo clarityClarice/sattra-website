@@ -1,6 +1,5 @@
 import React from 'react'
 import Main from '../template/Main'
-import Imagem1 from '../../Assets/Images/Imagem1.jpg'
 import catraca from '../../Assets/Images/catraca.jpg'
 import cancela from '../../Assets/Images/cancela.jpg'
 import ocrImagem from '../../Assets/Images/ocrImagem.png'
@@ -56,18 +55,17 @@ class Home extends React.Component {
                     </div>
                     
                     <div className="video">
-                    <div className="videoContainer">
-                        <video autoplay controls>
-                            <source  src={Sattra} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video> 
-                    </div>
-                    
-                    <div className="videoContainer">
+                        <div className="videoContainer">
+                            <video autoplay controls>
+                                <source  src={Sattra} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video> 
+                        </div>
+                        
+                        <div className="videoContainer">
                             <img src={ocrImagem} alt="Ocr" />
+                        </div>
                     </div>
-                </div>
-                    
                 </div>
             </Main>
         )
