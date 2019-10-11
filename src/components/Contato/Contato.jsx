@@ -22,7 +22,6 @@ export default props =>
                 <p className="mb-0" > <i class="fa fa-envelope" aria-hidden="true"></i> contato@sattra.com.br</p>
                 <p/>
                 <p class="mb-0"><i class="fa fa-phone" aria-hidden="true"></i> +55 47 2125-0087</p>
-                < p/>
             </div>
 
             <div className="column2">
