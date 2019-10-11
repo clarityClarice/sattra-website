@@ -1,9 +1,14 @@
 import React from 'react'
 import Main from '../template/Main'
 import Imagem1 from '../../Assets/Images/Imagem1.jpg'
+import catraca from '../../Assets/Images/catraca.jpg'
+import cancela from '../../Assets/Images/cancela.jpg'
+import ocrImagem from '../../Assets/Images/ocrImagem.png'
 import Teste from '../../Assets/Images/Teste.jpg'
 import Sattra from '../../Assets/Videos/Sattra.mp4'
 import './Home.css'
+
+
 
 class Home extends React.Component {
     componentDidMount(){
@@ -30,12 +35,16 @@ class Home extends React.Component {
                 <p></p>
                 <div className="container">
                     <div class="slideshow-container">
+                        <div className="mySlides fader">
+                            <img src={Teste} width="800" height="300" alt="imagem 1" />
+                        </div>
 
                         <div className="mySlides fader">
-                            <img src={Teste} width="800" height="300" alt="teste" />
+                            <img src={cancela} width="800" height="300" alt="cancela" />
                         </div>
+                        
                         <div className="mySlides fader">
-                            <img src={Imagem1} width="800" height="300" alt="imagem 1" />
+                            <img src={catraca} width="800" height="300" alt="Catraca" />
                         </div>
                     </div>
 
@@ -55,10 +64,7 @@ class Home extends React.Component {
                     </div>
                     
                     <div className="videoContainer">
-                        <video  controls>
-                            <source src={Sattra} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video> 
+                            <img src={ocrImagem} alt="Ocr" />
                     </div>
                 </div>
                     
