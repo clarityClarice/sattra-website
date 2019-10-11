@@ -14,7 +14,7 @@ function enviar(){
 
 export default props =>
     <Main title="Fale Conosco">
-        <div className="content">
+        <div className="contentContato">
 
             <div class="column1">
                 <p className="mb-0" > <i class="fa fa-map-marker" aria-hidden="true"></i> Itajaí - Santa Catarina</p>
