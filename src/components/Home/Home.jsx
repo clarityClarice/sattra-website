@@ -27,6 +27,7 @@ class Home extends React.Component {
     render() {
         return(
             <Main title="Home">
+                <p></p>
                 <div className="container">
                     <div class="slideshow-container">
 
