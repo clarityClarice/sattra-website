@@ -4,10 +4,6 @@
     justify-content: space-around
 }
 
-img#digifort, img#genetec{
-    max-width: 400px;
-}
-
-#digifort{
-    max-height: 200px;
+img#digifort, img#parceiro3{
+    max-width: 250px;
 }

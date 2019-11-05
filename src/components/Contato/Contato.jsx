@@ -10,7 +10,7 @@ export default props =>
     <Main title="Fale Conosco">
         <div className="contentContato">
             <div className="column1">
-            <iframe allowTransparency="true" height="800" width="80%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-5081709.html">
+            <iframe allowTransparency="true" height="800" width="80%"  marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-5081709.html">
                 <p>
                     Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)
                 </p>

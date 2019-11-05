@@ -1,5 +1,12 @@
 div.contentContato {
-    padding: 0;
+    margin: auto;
     display: grid;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+div.column1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

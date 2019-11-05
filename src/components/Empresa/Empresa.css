@@ -1,4 +1,7 @@
 div.content{
     text-align: justify;
     text-justify: inter-word;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
 }
